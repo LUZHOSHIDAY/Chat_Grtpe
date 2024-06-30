@@ -1,0 +1,93 @@
+{
+    "intents": [
+      {
+        "tag": "saludos",
+        "patterns": [
+          "Hola",
+          "Hola, ¿cómo estás?",
+          "Buenos días",
+          "Buenas tardes",
+          "Buenas noches",
+          "¡Hola!",
+          "¿Qué tal?",
+          "¿Cómo va todo?",
+          "Hey",
+          "Hola, ¿qué tal?"
+        ],
+        "responses": [
+          "¡Hola! ¿En qué puedo ayudarte?",
+          "¡Hola! ¿Cómo estás?",
+          "Buenos días, ¿cómo puedo asistirte hoy?",
+          "Buenas tardes, ¿en qué puedo ayudarte?",
+          "Buenas noches, ¿cómo estás?",
+          "¡Hola! ¿Qué tal?",
+          "Hola, ¿cómo va todo?",
+          "¡Hey! ¿Qué necesitas?",
+          "¡Hola! ¿En qué te puedo ayudar hoy?"
+        ]
+      },
+      {
+        "tag": "despedidas",
+        "patterns": [
+          "Adiós",
+          "Hasta luego",
+          "Nos vemos",
+          "Chao",
+          "Cuídate",
+          "Hasta pronto",
+          "Me voy",
+          "Hasta la próxima",
+          "Que tengas un buen día",
+          "Hasta mañana"
+        ],
+        "responses": [
+          "Adiós, ¡que tengas un buen día!",
+          "Hasta luego, ¡cuídate!",
+          "Nos vemos pronto, ¡adiós!",
+          "Chao, ¡cuídate mucho!",
+          "Hasta la próxima, ¡que estés bien!",
+          "Hasta pronto, ¡que tengas un buen día!",
+          "Me despido, ¡adiós!",
+          "Hasta mañana, ¡que descanses!",
+          "Que tengas un excelente día, ¡adiós!"
+        ]
+      },
+      {
+        "tag": "despido_arbitrario",
+        "patterns": [
+          "¿Qué es un despido arbitrario?",
+          "Explícame el despido sin expresión de causa.",
+          "¿Cómo se configura un despido sin demostración de causa?",
+          "Definición de despido arbitrario."
+        ],
+        "responses": [
+          "El despido arbitrario se configura en dos escenarios: \n1. Despido sin expresión de causa: Cuando el despido del trabajador se realiza sin expresión de causa. \n2. Despido sin demostración de causa: Cuando se despide al trabajador sin demostrarse la causa invocada en proceso judicial."
+        ]
+      },
+      {
+        "tag": "procedimiento_despido_arbitrario",
+        "patterns": [
+          "¿Qué hago si me despiden arbitrariamente?",
+          "¿Cómo presento una denuncia por despido arbitrario?",
+          "Explícame el procedimiento a seguir por el trabajador.",
+          "Pasos a seguir en caso de despido arbitrario."
+        ],
+        "responses": [
+          "El procedimiento a seguir por el trabajador en caso de despido arbitrario es el siguiente: \n1. Presentar la denuncia: El trabajador debe dirigirse a la Gerencia Regional de Trabajo y Promoción del Empleo o a una de sus oficinas zonales para denunciar su despido arbitrario. En Cusco, la oficina se encuentra en la esquina de Av. Micaela Bastidas y Calle Alcides Vigo N° 301, Wanchaq. Teléfonos: 240744, 263588 - Anexo 1024. \n2. Derivación a la SUNAFIL: El profesional encargado derivará el caso a la SUNAFIL para la inspección del mismo. Una vez constatado, el trabajador debe regresar al área correspondiente para ser derivado al Área de Conciliación. \n3. Solicitud de conciliación: El trabajador debe presentar una solicitud para ser convocado a diligencia de conciliación conjuntamente con el empleador. \n4. Liquidación de beneficios sociales: Mientras se lleva a cabo la conciliación, el trabajador es derivado al Área de Liquidaciones para calcular los beneficios sociales que le corresponden. \n5. Patrocinio judicial gratuito: Si no se llega a un acuerdo en la conciliación, el trabajador despedido será derivado a los abogados encargados del patrocinio judicial gratuito para elaborar e interponer la demanda por despido. Este servicio es ofrecido siempre y cuando la última remuneración percibida por el afectado no exceda las dos (2) RMV vigentes al momento del despido."
+        ]
+      },
+      {
+        "tag": "oficinas_zonales",
+        "patterns": [
+          "¿Dónde están las oficinas zonales de trabajo en Cusco?",
+          "Dame la dirección de la oficina zonal de trabajo en Sicuani.",
+          "Ubicación de la oficina zonal de trabajo en Quillabamba.",
+          "Contactos de las oficinas zonales de trabajo."
+        ],
+        "responses": [
+          "Las oficinas zonales de trabajo y promoción del empleo en Cusco son las siguientes: \n1. Sicuani: Oficina Zonal de Trabajo y Promoción del Empleo Provincias Alto Andinas. Dirección: Jr. Marcapata Nº 113. Teléfono: 351327. \n2. Quillabamba: Sub Gerencia de Trabajo y Derechos Fundamentales. Dirección: Jr. Cusco s/n (frente a la Compañía de Bomberos). Teléfono: 311311."
+        ]
+      }
+    ]
+  }
+  
